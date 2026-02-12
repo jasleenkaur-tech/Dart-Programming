@@ -1,0 +1,9 @@
+void main(){
+  print("hello World");
+  print("this is my first application");
+  print(4);
+  print(4-1);
+  print(true);
+  print(false);
+}
+# in main function in dart we can print any text,number,mathematical calculations,boolean values etc.
