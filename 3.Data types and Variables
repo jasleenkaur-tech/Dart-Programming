@@ -1,0 +1,73 @@
+// DATA TYPES AND VARIABLES
+NOTE:ALL THE DATA TYPES IN DART ARE OBJECTS. THEREFORE ,THIER INITIAL VALUE IS BY DEFAULT NULL.
+
+void main(){
+  //NUMBER:INT
+  int age =10;
+  
+  //NUMBER:DOUBLE
+  double percentage = 889.99;
+  
+  //STRING
+  String name ="Jasleen kaur";
+  
+  //BOOLEAN
+  bool isAlive = true;
+  
+  print(age);
+  print(percentage);
+  print(name);
+  print(isAlive); 
+}
+
+OUTPUT:
+10
+889.99
+Jasleen kaur
+true
+
+// USING THE var DATA TYPE
+
+void main(){
+  //NUMBER:INT
+  int age =10;
+  var score =99; // it is inferred as integer by the compiler
+  //NUMBER:DOUBLE
+  double percentage = 889.99;
+  var marks= 33.33; //it is inferred as double by the compiler
+  
+  //STRING
+  String name ="Jasleen kaur";
+  var company = "google";  //it is inferred as string by the compiler
+  
+  //BOOLEAN
+  bool isAlive = true;
+  var isValid = false; //it is inferred as boolean by the compiler
+  
+  print(score);
+  print(marks);
+  print(company);
+  print(isValid);
+}
+OUTPUT:
+99
+33.33
+google
+false
+
+THIER INITIAL VALUE IS BY DEFAULT NULL...
+like..
+
+void main(){
+int age;
+print(age);
+}
+
+output:
+null
+
+but now it is must to assign the value otherwise it gives error like this ...
+
+compileNewDDC
+main.dart:18:9: Error: Non-nullable variable 'age' must be assigned before it can be used.
+  print(age);
