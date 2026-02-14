@@ -71,3 +71,18 @@ but now it is must to assign the value otherwise it gives error like this ...
 compileNewDDC
 main.dart:18:9: Error: Non-nullable variable 'age' must be assigned before it can be used.
   print(age);
+
+
+//(hex, exponential, etc.) are called number literals or constant literals.
+
+void main(){
+  //NUMBER:INT
+  int hexvalue = 0xEDCAB;
+  
+  //NUMBER:DOUBLE
+  double exponents = 1.42e5;
+ 
+  print(hexvalue);
+  print(exponents);
+  
+}
