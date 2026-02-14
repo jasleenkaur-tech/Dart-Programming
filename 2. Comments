@@ -1,0 +1,22 @@
+FOR SINGLE LINE COMMENT //(FORWARD SLASH)
+
+void main(){
+  // this is my first application
+  print("hello World");
+  print("this is my first application"); // this is another comment 
+  print(4);
+  print(4-1);
+  print(true);
+  print(false);
+}
+
+FOR MULTI LINE /*...*/ (FORWARD SLASH WITH ASTERISK )
+
+void main(){
+  print("hello World");
+  print("this is my first application"); 
+  /* print(4);
+  print(4-1);
+  print(true);
+  print(false); */
+}
