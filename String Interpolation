@@ -1,0 +1,47 @@
+void main(){
+  
+  // these all are literals here we need to deine the variable for it.
+//   true;
+//   20;
+//   "john";
+//    4.5;
+  
+  // here the literals assign the values
+  
+  bool istrue= true;
+  int num = 20;
+  String name ="jasleen";
+  double value = 4.5;
+  print(istrue);
+  print(num);
+  print(value);
+  print(name);
+  
+  //string literals
+  
+  String s1= 'jassu'; // single quotes
+  String s2 = "jasleen"; // double quote
+  String s3 ='it\'s easy'; // in single backalsh with open single quote
+  String s4 ="it's easy "; // in double quotes single quote
+  String s5 ="hello hello gusy how are you ,jscnaalkdksl,mbggghjshcksjcc";
+  // long information 
+  print(s1);
+   print(s2);
+   print(s3);
+   print(s4);
+   print(s5);
+  
+  // String interpolation
+  
+  String name1="jasleen";
+  String message = "my name is $name1";
+  print(message);
+  print("charcters in my name is ${name1.length}");
+  // string interpolation is also used for other data types
+  
+  int l=20;
+  int b=30;
+  print("the sum of $l and $b is ${l+b}");
+  print("the area of rectangle with length $l and breadth $b is ${l*b}");
+  
+}
