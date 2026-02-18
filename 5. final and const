@@ -1,0 +1,31 @@
+void main(){
+  // final keyword
+  final name = "jassu";
+  //name = "harpreet"; // error the final variable 'name' can only be set once.
+  print(name);
+  
+  final String countryname = "India"; // using the datatype is optinal
+  print(countryname);
+  
+  // const keyword
+  
+  const pi = 3.14;
+  print(pi);
+  const double gravity= 9.8; // using the data type is optional
+  print(gravity);
+}
+
+// instance variable 
+
+class circle{
+  
+  final color ="red";
+  static const pi = 3.14; // not use the const there is error only static fields can be declared const.
+ 
+}
+
+output
+jassu
+India
+3.14
+9.8
