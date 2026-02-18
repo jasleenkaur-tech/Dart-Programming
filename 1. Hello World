@@ -6,4 +6,13 @@ void main(){
   print(true);
   print(false);
 }
+
+output
+hello World
+this is my first application
+4
+3
+true
+false
+
 # in main function in dart we can print any text,number,mathematical calculations,boolean values etc.
