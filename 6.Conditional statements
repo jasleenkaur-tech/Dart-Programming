@@ -1,0 +1,80 @@
+IF STATEMENT ..
+SYNTAX:
+
+if(condition){
+// code to be execiuted when the condition is true
+}
+
+void main(){
+  
+  // if statement 
+  var salary = 60000;
+  if(salary > 50000){
+    print('you got the promotion');  
+  }
+}
+
+output:
+you got the promotion
+
+when in condition salary is greater in the condition according to given salary then nothing to be print and we need else statement 
+
+IF_ELSE STATEMENT...
+SYNTAX:
+
+if(condition){
+// code to be executed when the condition is true
+}else{
+// code to be executed when the condtion is false
+}
+
+void main(){
+  
+  // if_else statement 
+  var salary = 60000;
+  if(salary > 70000){
+    print('you got the promotion');  
+  }else{
+    print('you need to work hard');
+  }
+}
+
+output:
+you need to work hard
+
+
+IF_ELSE_IF...
+SYNTAX:
+if(condition1){
+// code to be executed here when the condition is true
+}else if(conditon2){
+//  code to be executed when the condition is true
+}else if(conditon3){
+//  code to be executed when the condition is true
+}else{
+// code to be executed when the condtion is false
+}
+
+void main(){
+  
+  var marks= 60;
+  if(marks>= 90 && marks< 100){
+    print('you got grade A+');
+  }else if(marks>= 80 && marks< 90){
+     print('you got grade A');
+  }else if(marks>= 70 && marks< 80){
+     print('you got grade B');
+  }else if(marks>= 60 && marks< 70){
+     print('you got grade C');
+  }else if(marks>= 50 && marks< 60){
+     print('you got grade D');
+  }else if(marks< 30){
+     print('you have failed');
+  }else{
+    print('Invalid marks!! try again');
+  }
+ 
+}
+
+output:
+you got grade C
