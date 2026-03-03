@@ -1,0 +1,46 @@
+//SWITCH STATEMENT.
+
+SYNTAX:
+switch(variable){
+case1:
+//code
+break;
+case2:
+//code
+break;'
+case3:
+//code
+break;
+deafult:
+//code
+}
+
+
+// THE VARIABLES USED IN SWITCH CASE ARE: INT ANND STRING ... CANNOT USE BOOL AND DOUBLE 
+void main(){
+  String grade ='F';
+  switch(grade){
+    case 'A':
+      print("you got grade A");
+      break;
+    case 'B':
+      print("you got grade B");
+      break;
+    case 'C':
+      print("you got grade C");
+      break;
+    case 'D':
+      print("you got grade D");
+      break;
+    case 'E':
+      print("you got grade E");
+      break; 
+    default:
+      print("Invalid");
+  }
+}
+
+output:
+Invalid
+
+****this case is similar to if_else_if
