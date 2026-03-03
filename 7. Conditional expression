@@ -1,0 +1,74 @@
+// CONDITIONAL EXPRESSION
+these are used to write the many lines of code in one line
+
+1. SYNTAX:
+condition ? exp1 : exp2;
+
+// if the cndtn is true it evalutes the exp1 and return its value 
+// if the cndtn is false it evalutes the exp2 and return its value 
+
+
+void main(){
+  int a = 2;
+  int b = 3;
+  a < b ? print('$a is smaller'): print('$b is smaller');
+}
+output:
+2 is smaller
+
+one way more..
+// CONDITIONAL EXPRESSION
+void main(){
+  int a = 2;
+  int b = 3;
+//   a < b ? print('$a is smaller'): print('$b is smaller');
+  int smallNum;
+  if(a<b){
+    smallNum= a;
+  }else{
+    smallNum =b;
+  }
+  print("$smallNum is smaller");
+}
+output:
+2 is smaller
+
+// CONDITIONAL EXPRESSION
+void main(){
+  int a = 2;
+  int b = 3;
+//   a < b ? print('$a is smaller'): print('$b is smaller');
+  int smallNum;
+  
+  smallNum = a < b ? a:b;
+  print("$smallNum is smaller");
+}
+
+output:
+2 is smaller
+
+make code more accurate 
+// CONDITIONAL EXPRESSION
+void main(){
+  int a = 2;
+  int b = 3;
+  int smallNum = a < b ? a:b;
+  print("$smallNum is smaller");
+}
+
+
+// 2. SYNTAX :
+ exp1 ?? exp2;
+
+ // if expression1 is non-null return its value ,otherwise evalutes and return the value of exp2
+
+ // CONDITIONAL EXPRESSION
+void main() {
+  String? name = "jasleen";   // Make it nullable
+
+  String nametoprint = name ?? "guest user";
+  print(nametoprint);
+}
+
+output:
+jasleen
